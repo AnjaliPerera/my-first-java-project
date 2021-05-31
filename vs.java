@@ -13,10 +13,14 @@ public class vs {
         String name = scanner.nextLine();
         System.out.print("what is your age: ");
         int age = scanner.nextInt();
+        System.out.print("What is your height(m) :");
+        double height = scanner.nextDouble();
+
 
         //Print details
         System.out.println("Your name is " + name);
         System.out.println("your age is " + age);
+        System.out.println("your height is "+ height +"m");
 
         //Close the scanner
         scanner.close();
